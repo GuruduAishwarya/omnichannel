@@ -1,0 +1,626 @@
+.feed {
+  width: 100%;
+  /* height: auto; */
+  background-color: #ffffff;
+  margin: auto auto;
+  padding-bottom: 10px;
+  height: 250px;
+}
+
+.feed .username {
+  padding: 0px 5px 0px 5px;
+  /* padding: 10px 30px 0px 30px; */
+  display: flex;
+  flex-flow: row;
+}
+
+.feed .username .image,
+.feed .username .image img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.feed .username a {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.feed .username .id {
+  margin: 5px 5px;
+}
+
+.feed .post {
+  width: 100%;
+  /* height: 180px; */
+  margin: 10px 0px;
+}
+
+.feed .post img {
+  width: 100%;
+  height: inherit;
+}
+
+.feed .btn-group {
+  padding: 0px 0px;
+  /* padding: 0px 10px; */
+}
+
+.feed .btn-group button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.feed .btn-group .btn-bookmark {
+  float: right;
+}
+
+.feed .caption {
+  font-size: 13px;
+  padding: 0px 5px;
+  /* padding: 0px 20px; */
+}
+
+.feed .caption .like {
+  font-weight: bold;
+}
+
+.feed .caption .id {
+  color: #000000;
+  text-decoration: none;
+}
+
+.feed .caption .time {
+  font-size: 10px;
+  color: #999;
+}
+
+.facebook-post-image {
+  /* max-height: 180px; */
+  width: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.facebook-post-image img {
+  /* max-height: 170px;  */
+  width: 100%;
+}
+
+/* body,
+  button {
+    font-family: "Segoe UI", sans-serif;
+    color: #FFFFFF;
+  }
+  
+  body {
+    font-size: 12px;
+  } */
+
+.reel__section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reel__button {
+  background: transparent;
+  border: 1px solid white;
+  font-weight: 600;
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.reel__containerstory {
+  /* height: 629.76px;
+    width: 354.24px; */
+
+  width: 100%;
+  /* Ensure full width */
+  /* height: 629.76px; */
+  /* Ensure full height */
+  border-radius: 10px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  /* Prevents overflow */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.reel__container {
+  /* height: 629.76px;
+    width: 354.24px; */
+
+  width: 100%;
+  /* Ensure full width */
+  /* height: 283.76px; */
+  /* Ensure full height */
+  border-radius: 10px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  /* Prevents overflow */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.reel__video {
+  position: absolute;
+  /* Positioning the video absolutely */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensures video covers the container */
+  /* z-index: 0; */
+  /* Ensures video is behind other content */
+}
+
+.reel__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensure video covers the container */
+  z-index: 0;
+  /* Ensure video is behind other content */
+}
+
+.reel__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  /* Keeps title above the video */
+}
+
+.reel__back-button {
+  display: flex;
+  align-items: center;
+}
+
+.reel__back-button p {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.icon-tabler-arrow-narrow-left {
+  margin-right: 0.5rem;
+}
+
+.reel__content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.reel__user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.reel__avatar {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 0.5rem;
+}
+
+.reel__username {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.icon-tabler-message-circle {
+  transform: scaleX(1);
+}
+
+.reel__options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 225px;
+  align-items: center;
+}
+
+.reel__audio-cover {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+  border-radius: 7px;
+}
+
+.reel__likes {
+  font-weight: 600;
+  margin-top: -1rem;
+  font-size: 11px;
+}
+
+.reel__caption {
+  margin-bottom: 0.5rem;
+  /* word-wrap: break-word;
+  width: 20%; */
+}
+
+.reel__audio {
+  display: flex;
+  align-items: center;
+  margin-left: -0.4rem;
+}
+
+/* .reel__caption .id {
+    color: white;
+    text-decoration: none;
+} */
+/* Facebook text post styles */
+#facebook_text {
+  /* width: 326px; */
+  background: white;
+  padding-bottom: 6px;
+  /* border: 1px solid #dddfe2; */
+  border-radius: 4px;
+}
+
+/* Header */
+#facebook_text .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 12px 0;
+  height: 3.75rem;
+}
+
+#facebook_text .header .left-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#facebook_text .header .left-info .thumbnail img {
+  display: block;
+  /* img 預設為 inline */
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+#facebook_text .header .left-info .name-info .name a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #365899;
+}
+
+#facebook_text .header .left-info .name-info .name a:hover {
+  text-decoration: underline;
+}
+
+#facebook_text .header .left-info .name-info .time {
+  color: #616770;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#facebook_text .header .left-info .name-info .time .global-icon {
+  width: 12px;
+  height: 12px;
+  background-position: -28px -499px;
+  background-image: url("https://weichiachang.github.io/easter-eggs-mobile/images/3o8Zo7X.png");
+  background-size: 73px 540px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+#facebook_text .header .right-info {
+  background-image: url("https://weichiachang.github.io/easter-eggs-mobile/images/dNpCLDT.png");
+  background-repeat: no-repeat;
+  background-size: 500px 287px;
+  background-position: -242px -245px;
+  width: 20px;
+  height: 20px;
+  cursor: default;
+}
+
+/* Content */
+#facebook_text .content {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 12px 12px 7px;
+}
+
+#facebook_text .feedback-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #606770;
+  font-weight: 600;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 12px;
+}
+
+#facebook_text .feedback-action div {
+  /* cursor: pointer; */
+  cursor: default;
+}
+
+#facebook_text .feedback-action .fb-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 32px;
+}
+
+#facebook_text .feedback-action .fb-wrapper:hover {
+  background-color: rgba(29, 33, 41, 0.04);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+#facebook_text .feedback-action .fb-wrapper .fb-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+#facebook_text .feedback-action .fb-wrapper .fb-icon.share {
+  background-image: url("https://i.imgur.com/1V94KpF.png");
+  background-size: 161px 376px;
+  background-position: -61px -249px;
+}
+
+/* Facebook text post styles end*/
+
+.story__container {
+  width: 100%;
+  /* height: 290px;  */
+  aspect-ratio: 9/16;
+  border-radius: 10px;
+  /* padding: 1rem; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  background-color: #000000;
+  /* Prevents overflow */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.story__content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  padding: 0.5rem;
+  /* z-index: 1; */
+  color: #ffffff;
+  bottom: 0em;
+}
+
+.story__container .post img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Style for the active platform */
+
+#selected-platform a.active img {
+  border-bottom: 3px solid #8583ff; /* Blue border for the active platform */
+  border-radius: 50%; /* Rounded edges */
+  padding: 5px; /* Add padding inside the border */
+  background-color: #8583ff38; /* Light blue background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for emphasis */
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for the active platform */
+#selected-platform a.active img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+}
+
+/* Default platform icons */
+#selected-platform a img {
+  /* width: 50px; Set consistent icon size */
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for non-active icons */
+#selected-platform a img:hover {
+  transform: scale(1.05); /* Slight zoom for non-active icons */
+}
+
+/* Center align the list of icons */
+#selected-platform ul.list-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Add space between icons */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Compose.css */
+/* .modal-dialog {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-body {
+  max-height: calc(90vh - 150px); 
+  overflow-y: auto;
+}
+
+.modal-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  z-index: 1000;
+} */
+
+.card-preview {
+  /* height: 370px; */
+  /* overflow: auto; */
+  height: 380px;
+}
+
+/* Pinterest styles */
+/*POSTS*/
+
+.window {
+  border-radius: 20px;
+  /* margin: 10px; */
+  width: 100%;
+  /* height: 320px; */
+  /* width: 100%; */
+  /* height: 100%; */
+  overflow: hidden;
+  position: relative;
+  z-index: 97;
+}
+.window .foto {
+  width: 100%;
+  border-radius: 20px;
+  cursor: zoom-in;
+  height: inherit;
+  object-fit: cover;
+}
+.window .content {
+  margin-left: 10px;
+  margin-top: -2px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  word-wrap: break-word;
+}
+
+/* LinkedIn Preview Styles */
+.linkedin-preview {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.linkedin-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info .name {
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+}
+
+.profile-info .time {
+    color: #666;
+    font-size: 12px;
+}
+
+.linkedin-content {
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    min-height: 50px;
+}
+
+.linkedin-actions {
+    display: flex;
+    border-top: 1px solid #f0f0f0;
+    padding: 4px 12px;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border: none;
+    background: none;
+    color: #666;
+    font-size: 13px;
+    cursor: pointer;
+    flex: 1;
+    justify-content: center;
+}
+
+.action-btn:hover {
+    background-color: #f3f2f0;
+    border-radius: 4px;
+}
+
+.action-btn i {
+    font-size: 20px;
+}
+
+.more-options {
+    color: #666;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 8px;
+}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en" class="theme-fs-md">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/favicon.ico" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Welcome | Social media Sync</title>
+    <!-- Config Options -->
+    <!-- <meta name="setting_options" content=' '> -->
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a user's home screen or is 
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- End Config Options -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/favicon.png" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/libs.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/socialv006a.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- flatpickr css -->
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/vendor/flatpickr/dist/flatpickr.min.css"
+    />
+    <!-- Sweetlaert2 css -->
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/vendor/sweetalert2/dist/sweetalert2.min.css"
+    />
+    <!-- vanillajs css -->
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/vendor/vanillajs-datepicker/dist/css/datepicker.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- color customizer css -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/customizer.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/custom_style.css" />
+
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/vendor/fullcalendar/core/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/vendor/fullcalendar/daygrid/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/vendor/fullcalendar/timegrid/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/vendor/fullcalendar/list/main.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/assets/css/login.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/assets/css/signup.css"
+    />
+    <style type="text/css">
+      .sidebar-default:not(.left-bordered).sidebar-soft
+        .navbar-nav
+        .nav-item
+        .nav-link:not(.disabled).active,
+      .sidebar-default:not(.left-bordered).sidebar-soft
+        .navbar-nav
+        .nav-item
+        .nav-link:not(.disabled)[aria-expanded="true"] {
+        background-color: rgb(223 223 254) !important;
+        box-shadow: unset;
+        color: #ff9934;
+      }
+
+      .sidebar.navs-rounded-all .sidebar-body .nav-item .nav-link:hover {
+        background-color: rgb(223 223 254) !important;
+        color: #ff9934 !important;
+      }
+    </style>
+
+<style type="text/css">
+      .text-warning {
+        color: #ee751d !important;
+      }
+      .border-warning {
+        border-color: #ee751d !important;
+      }
+      .border-primary {
+        border-color: #000053 !important;
+      }
+      .bg-warning {
+        background-color: #ee751d !important;
+      }
+      .line-height-custom {
+        line-height: 1.6;
+      }
+      .font-15 {
+        font-size: 15px;
+      }
+      .text-primary {
+        color: #000053 !important;
+      }
+      .sidebar-default:not(.left-bordered).sidebar-soft
+        .navbar-nav
+        .nav-item
+        .nav-link:not(.disabled).active,
+      .sidebar-default:not(.left-bordered).sidebar-soft
+        .navbar-nav
+        .nav-item
+        .nav-link:not(.disabled)[aria-expanded="true"] {
+        background-color: rgb(223 223 254) !important;
+        box-shadow: unset;
+        color: #ff9934;
+      }
+      .sidebar.navs-rounded-all .sidebar-body .nav-item .nav-link:hover {
+        background-color: rgb(223 223 254) !important;
+        color: #ff9934 !important;
+      }
+      .table-bordered > :not(caption) > * > * {
+        border-width: 0 1px;
+        padding: 5px 6px 5px 15px !important;
+      }
+      .table > :not(caption) > * > * {
+        padding: 5px 6px 5px 15px !important;
+      }
+
+      @media print {
+        * {
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+          color-adjust: exact !important;
+        }
+      }
+    </style>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- Backend Bundle JavaScript -->
+    <script src="%PUBLIC_URL%/assets/js/libs.min.js"></script>
+    <!-- Lodash Utility -->
+    <script src="%PUBLIC_URL%/assets/vendor/lodash/lodash.min.js"></script>
+    <!-- Utilities Functions -->
+    <script src="%PUBLIC_URL%/assets/js/setting/utility.js"></script>
+    <!-- Settings Script -->
+    <script src="%PUBLIC_URL%/assets/js/setting/setting.js"></script>
+    <!-- Settings Init Script -->
+    <script src="%PUBLIC_URL%/assets/js/setting/setting-init.js" defer></script>
+    <!-- slider JavaScript -->
+    <script src="%PUBLIC_URL%/assets/js/slider.js"></script>
+    <!-- masonry JavaScript -->
+    <script src="%PUBLIC_URL%/assets/js/masonry.pkgd.min.js"></script>
+    <!-- SweetAlert JavaScript -->
+    <script src="%PUBLIC_URL%/assets/js/enchanter.js"></script>
+    <!-- Sweet-alert Script -->
+    <script
+      src="%PUBLIC_URL%/assets/vendor/sweetalert2/dist/sweetalert2.min.js"
+      async
+    ></script>
+    <script src="%PUBLIC_URL%/assets/js/sweet-alert.js" defer></script>
+    <!-- Chart Custom JavaScript -->
+    <script src="%PUBLIC_URL%/assets/js/customizer.js"></script>
+    <!-- app JavaScript -->
+    <script src="%PUBLIC_URL%/assets/js/charts/weather-chart.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/app.js"></script>
+    <!-- Flatpickr Script -->
+    <script src="%PUBLIC_URL%/assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+    <!-- fslightbox Script -->
+    <script src="%PUBLIC_URL%/assets/js/fslightbox.js" defer></script>
+    <!-- vanilla Script -->
+    <script src="%PUBLIC_URL%/assets/vendor/vanillajs-datepicker/dist/js/datepicker.min.js"></script>
+    <!--lottie Script -->
+    <script src="%PUBLIC_URL%/assets/js/lottie.js"></script>
+    <!--select2 Script -->
+    <script src="%PUBLIC_URL%/assets/js/select2.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/fullcalendar/core/main.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/fullcalendar/daygrid/main.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/fullcalendar/timegrid/main.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/fullcalendar/list/main.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/fullcalendar/interaction/main.js"></script>
+    <!-- Moment Script For Date&Time -->
+    <script src="%PUBLIC_URL%/assets/vendor/moment.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.reply-preview {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #e9ecef; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside the preview */
+    margin-top: 10px; /* Space between the preview and the comment */
+  }
+  
+  .reply-preview .avatar-40 {
+    width: 40px; /* Size of the avatar */
+    height: 40px; /* Size of the avatar */
+  }
+  
+  .reply-preview .text-margin {
+    margin-left: 10px; /* Space between the avatar and the text */
+  }
+  
+  .reply-preview h5 {
+    font-size: 14px; /* Size of the username */
+    font-weight: bold; /* Bold username */
+  }
+  
+  .reply-preview p {
+    font-size: 13px; /* Size of the reply message */
+    color: #6c757d; /* Gray text color */
+  }
+  

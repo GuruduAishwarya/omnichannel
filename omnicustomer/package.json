@@ -1,0 +1,77 @@
+{
+  "name": "omni_channel_customer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/list": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@mdi/font": "^7.4.47",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.4",
+    "bootstrap": "^5.3.3",
+    "crypto-js": "^4.2.0",
+    "drawflow": "^0.0.60",
+    "emoji-picker-react": "^4.12.0",
+    "html2pdf.js": "^0.10.2",
+    "intl-tel-input": "^25.2.1",
+    "js-cookie": "^3.0.5",
+    "katex": "^0.16.11",
+    "moment-timezone": "^0.5.45",
+    "pm2": "^5.4.2",
+    "react": "^18.3.1",
+    "react-apexcharts": "^1.4.1",
+    "react-bootstrap": "^2.10.4",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.52.2",
+    "react-icons": "^5.3.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-lazy-load-image-component": "^1.6.2",
+    "react-lazyload": "^3.2.1",
+    "react-loading-skeleton": "^3.5.0",
+    "react-paginate": "^8.2.0",
+    "react-phone-number-input": "^3.4.8",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-to-print": "^2.15.1",
+    "socket.io-client": "^4.7.5",
+    "suneditor-react": "^3.6.1",
+    "sweetalert2": "^11.12.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

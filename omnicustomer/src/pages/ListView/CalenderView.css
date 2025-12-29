@@ -1,0 +1,31 @@
+/* Ensure the calendar background is white */
+.fc-theme-standard td,
+.fc-theme-standard th {
+    background-color: #fff;
+}
+
+
+
+/* Ensure the text within the event container is properly styled */
+.post-tile--container div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.post-tile--container img {
+    margin-right: 5px;
+}
+
+.post-tile--container span {
+    font-size: 12px;
+    color: white;
+    /* //////////// description color we can change there ////////////////// */
+}
+
+.card-header {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    position: relative;
+    z-index: 10;
+}

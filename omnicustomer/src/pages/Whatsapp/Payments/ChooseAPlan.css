@@ -1,0 +1,171 @@
+/* General card styles */
+.equal-height-card {
+    height: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition for both background and text color */
+}
+
+.equal-height-card:hover {
+    background-color: rgb(0, 0, 109);
+    /* Change this to the color you want on hover */
+    color: white;
+    /* Ensure text color is white on hover */
+}
+
+.equal-height-card:hover .plan-button:not(.active),
+.equal-height-card:hover .display-8 {
+    color: white;
+    /* Ensure button and price text color is white on hover */
+}
+
+.equal-height-card a {
+    transition: color 0.3s ease;
+    /* Smooth transition for link color */
+}
+
+.equal-height-card:hover a {
+    color: #010060;
+    /* Ensure link color is #010060 on hover */
+}
+
+.selected-plan {
+    border: 2px solid green;
+}
+
+.tick-mark-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #28a745;
+    /* Green */
+    border-radius: 50%;
+    width: 32px;
+    /* Adjust size */
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tick-mark {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Style for the active button */
+.plan-button.active {
+    background-color: green;
+    border-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the non-active button */
+.plan-button {
+    background-color: #010060;
+    border-color: #010060;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the button on hover when not active */
+.plan-button:not(.active):hover {
+    background-color: white;
+    border-color: #010060;
+    color: #010060;
+}
+
+/* Ensure the button text color is white when the card is hovered */
+.equal-height-card:hover .plan-button:not(.active) {
+    background-color: white;
+    border-color: #010060;
+    color: #010060;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+
+.modal-container {
+    background-color: white;
+    border-radius: 8px;
+    max-width: 80%;
+    max-height: 90%;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    padding: 0;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-body {
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Channel Item Styling */
+.channel-item {
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.channel-item.selected {
+    border-color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.channel-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.channel-name {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.channel-status {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.channel-item.selected .channel-status {
+    color: #28a745;
+    font-weight: 500;
+}

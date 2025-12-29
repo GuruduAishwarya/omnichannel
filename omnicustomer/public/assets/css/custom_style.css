@@ -1,0 +1,264 @@
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+
+.pagination>.active>a {
+  background-color: #f58312;
+  border-color: #f58312;
+  color: #fff;
+}
+
+.pagination>li>a {
+  border: 1px solid #f58312;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+  background-color: #f58312;
+  border-color: #f58312;
+  outline: none;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #f58312;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+  border-radius: unset;
+}
+
+.pagination li>a {
+  font-size: 1.125rem;
+  padding: 0 0.4rem;
+  line-height: 1.563rem;
+  display: block;
+  min-height: 1.688rem;
+}
+
+.row_selected {
+  background-color: #dfdffe !important;
+  /* color: #fff !important; */
+}
+
+/* .row_selected td {
+  color: #fff !important;
+}
+ */
+
+/* .row_selected > h6{ 
+  color: #fff !important;
+}
+
+
+.row_selected > h6{ 
+  color: #fff !important;
+} */
+
+.modal {
+  --bs-modal-margin: 6.75rem !important;
+}
+
+.custom-datepicker-width {
+  width: 29.6vw;
+  /* 50% of the parent container's width */
+}
+
+.custom-datepicker-widths {
+  width: 22.2vw;
+  /* 50% of the parent container's width */
+}
+
+.custom-black-hr {
+  border-top: 1px solid black !important;
+}
+
+.custom-datepicker-widthCol7 {
+  width: 22vw;
+  /* 50% of the parent container's width */
+}
+
+/* Support Ticket comment styles */
+.comment_div>blockquote {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: #999;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding: 0 5px 0 20px;
+  border: solid #b1b1b1;
+  border-width: 0 0 0 5px;
+}
+
+.comment_div>.__se__p-neon {
+  font-weight: 200;
+  font-style: italic;
+  background: #000;
+  color: #fff;
+  padding: 6px 4px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  text-transform: uppercase;
+  animation: neonFlicker 1.5s infinite alternate;
+}
+
+.comment_div>.__se__p-bordered {
+  border-top: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  padding: 4px 0;
+}
+
+.comment_div>.__se__t-code {
+  font-family: monospace;
+  color: #666;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
+}
+
+.comment_div>table {
+  display: table;
+  table-layout: auto !important;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 10px;
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.comment_div>table tr {
+  border: 1px solid #efefef;
+}
+
+.comment_div table td,
+.comment_div table th {
+  border: 1px solid #e1e1e1;
+  padding: 0.4em;
+  background-clip: padding-box;
+}
+
+.comment_div td,
+.comment_div th,
+.comment_div video {
+  position: relative;
+}
+
+.comment_div .__se__t-shadow {
+  text-shadow:
+    -0.2rem -0.2rem 1rem #fff,
+    0.2rem 0.2rem 1rem #fff,
+    0 0 0.2rem #999,
+    0 0 0.4rem #888,
+    0 0 0.6rem #777,
+    0 0 0.8rem #666,
+    0 0 1rem #555;
+}
+
+/* For text to speech audio svg */
+/* Blinking effect */
+.blinking {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.chat-reaction .reaction {
+  background: #dfdffe;
+  height: 23px;
+  width: 23px;
+  border-radius: 100%;
+  padding-left: 4px;
+  position: absolute;
+  bottom: -9px;
+}
+
+.chat-reaction .reaction_in {
+  background: #d9fdd3;
+}
+
+.chat-template {
+  position: absolute;
+  top: -17px;
+  background: #023e6b;
+  /* width: 65px; */
+  left: 19px;
+  height: 24px;
+  padding: 4px;
+}
+
+.badge-success {
+  text-transform: capitalize;
+  padding: 2px 8px;
+  background-color: #dff7e9;
+  color: #28c76f;
+  /* border: 1px solid #90d67f; */
+}
+
+.badge-warning {
+  text-transform: capitalize;
+  padding: 2px 8px;
+  background-color: #fff1e3;
+  color: #ff9f43;
+  /* border: 1px solid #ffcc85; */
+}
+
+.badge-danger {
+  text-transform: capitalize;
+  padding: 2px 8px;
+  background-color: #ffd9dd;
+  color: #dc3545;
+  /* border: 1px solid #ffcc85; */
+}
+
+/* /////////////////// Instagram ////////////////////////////// */
+.insta-post-image-bg {
+  max-height: 897px;
+  max-width: 897px;
+  aspect-ratio: 1 / 1;
+  flex-basis: 897px;
+}
+
+.insta-post-image-bg img {
+  object-fit: cover;
+}
+
+.custom-iti-class {
+  display: block !important;
+  width: 100% !important;
+}
+
+a.no-cursor {
+  cursor: default;
+}
+
+.table-bordered-custom>:not(caption)>*>* {
+  padding: 5px 6px 5px 15px !important;
+}
